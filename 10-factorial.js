@@ -6,5 +6,4 @@ function factorial(n) {
 	return n * factorial(n - 1);
 }
 
-let result = factorial(parseInt(args[0]))
-console.log(result)
+console.log(factorial(parseInt(args[0])))
